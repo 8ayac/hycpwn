@@ -25,14 +25,15 @@ $ docker run -it 8ayac/hycpwn
 ```
 
 ## Includes
-* radare2
+* [radare2](https://github.com/radare/radare2.git)
 * ltrace
 * strace
-* gdb-peda
-* Pwngdb
-* rp++
-* pwntools
-* libformatstr
-* neovim
-* zsh
+* [gdb-peda](https://github.com/longld/peda.git)
+* [Pwngdb](https://github.com/scwuaptx/Pwngdb.git)
+* [mgpeda](https://github.com/miyagaw61/mgpeda.git)
+* [rp++](https://github.com/0vercl0k/rp.git)
+* [pwntools](https://github.com/Gallopsled/pwntools.git)
+* [libformatstr](https://github.com/hellman/libformatstr.git)
+* [neovim](https://github.com/neovim/neovim.git)
+* [zsh](www.zsh.org)
 * etc...
