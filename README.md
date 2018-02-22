@@ -13,7 +13,7 @@ $ docker build -t hycpwn
 ```
 
 ### From DockerHub
-The image can alos be got from [Docker Hub](https://hub.docker.com/r/8ayac/hycpwn)
+The image can also be got from [Docker Hub](https://hub.docker.com/r/8ayac/hycpwn)
 ```sh
 $ docker pull 8ayac/hycpwn
 ```
