@@ -1,15 +1,15 @@
 # hycpwn
 
 ## Description
-This environment is fully tuned for 8ayac's CTF(Pwn) life.  
-But for you to pwn, that may be a useful environment to some extent.  
-If you are interested in it, please try it!  
+This environment is fully tuned for 8ayac's CTF(Pwn) life.
+But for you to pwn, that may be a useful environment to some extent.
+If you are interested in it, please try it!
 
 ## Installation
 ### From GitHub
 ```sh
 $ git clone https://github.com/8ayac/hycpwn.git && cd hycpwn
-$ docker build -t hycpwn
+$ docker build -t hycpwn ./
 ```
 
 ### From DockerHub
@@ -21,7 +21,7 @@ $ docker pull 8ayac/hycpwn
 ## How to use
 Start up the image.
 ```
-$ docker run -it 8ayac/hycpwn
+$ docker run --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it 8ayac/hycpwn
 ```
 
 ## Includes
