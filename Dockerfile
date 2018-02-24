@@ -79,5 +79,5 @@ RUN wget -q https://github.com/0vercl0k/rp/releases/download/v1/rp-lin-x64 && \
     chmod +x rp-lin-x64 rp-lin-x86 && \
     mv rp-lin-x64 rp-lin-x86 /usr/local/bin
 
-WORKDIR /home/root
+WORKDIR /home/root/Workdir
 CMD ["/usr/bin/zsh"]
